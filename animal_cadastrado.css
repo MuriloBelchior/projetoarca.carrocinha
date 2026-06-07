@@ -1,0 +1,65 @@
+body {
+    background-color: #f3f5f9;
+}
+
+.pagina-sucesso {
+    min-height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-sucesso {
+    width: 700px;
+
+    background-color: white;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.icone {
+    font-size: 80px;
+}
+
+.card-sucesso h1 {
+    margin-top: 20px;
+
+    color: #334ccf;
+
+    font-family: "Concert One", cursive;
+}
+
+.card-sucesso p {
+    margin-top: 20px;
+
+    font-family: "Poppins", sans-serif;
+}
+
+.acoes {
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.acoes a {
+    text-decoration: none;
+
+    background-color: #8b2bbf;
+    color: white;
+
+    padding: 12px 20px;
+
+    border-radius: 10px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}

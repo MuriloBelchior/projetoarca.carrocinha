@@ -1,0 +1,188 @@
+.pagina-avaliacao {
+    max-width: 1200px;
+    margin: 40px auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.voltar {
+    text-decoration: none;
+    color: #334ccf;
+    font-family: "Concert One", cursive;
+    font-size: 20px;
+
+    align-self: flex-start;
+}
+
+.topo-avaliacao {
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 20px;
+}
+
+.topo-avaliacao h1 {
+    font-family: "Concert One", cursive;
+    color: #334ccf;
+    font-size: 40px;
+}
+
+.topo-avaliacao p {
+    margin-top: 10px;
+}
+
+.topo-avaliacao span {
+    display: inline-block;
+    margin-top: 15px;
+
+    background-color: #334ccf;
+    color: white;
+
+    padding: 8px 15px;
+    border-radius: 10px;
+
+    font-family: "Concert One", cursive;
+}
+
+.aviso {
+    width: 100%;
+    max-width: 1000px;
+
+    margin-top: 30px;
+ 
+    padding: 10px;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.40);
+
+    background-color: #fff8e6;
+    border-left: 6px solid #f7941d;
+    border-radius: 10px;
+
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.icone-aviso {
+    font-size: 35px;
+}
+
+.aviso h3 {
+    font-family: "Concert One", cursive;
+    color: #334ccf;
+}
+
+.conteudo-avaliacao {
+    width: 100%;
+    max-width: 1000px;
+
+    margin-top: 30px;
+
+    display: flex;
+    gap: 30px;
+}
+
+.card-pet-dados {
+    width: 320px;
+
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+
+   box-shadow: 0 4px 12px rgba(0,0,0,0.40);
+}
+
+.card-pet-dados h2 {
+    font-family: "Concert One", cursive;
+    color: #334ccf;
+    margin-bottom: 15px;
+}
+
+.card-pet-dados img {
+    width: 100%;
+    height: 220px;
+
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-pet-dados h3 {
+    margin-top: 15px;
+
+    font-family: "Concert One", cursive;
+    color: #334ccf;
+}
+
+.card-pet-dados p {
+    margin-top: 5px;
+}
+
+.status {
+    display: inline-block;
+
+    margin-top: 15px;
+
+    background-color: #e6f7ea;
+    color: #1b8f3c;
+
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+.trocar {
+    display: inline-block;
+
+    margin-top: 20px;
+
+    text-decoration: none;
+    color: white;
+
+    background-color: #8b2bbf;
+
+    padding: 10px 15px;
+    border-radius: 10px;
+
+    font-family: "Concert One", cursive;
+}
+
+.proximos-passos {
+    flex: 1;
+}
+
+.proximos-passos h2 {
+    font-family: "Concert One", cursive;
+    color: #334ccf;
+}
+
+.proximos-passos > p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.opcao {
+    background-color: white;
+
+    padding: 20px;
+    margin-bottom: 15px;
+
+    border-radius: 15px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.40);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    text-decoration: none;
+    color: inherit;
+}
+
+.opcao h3 {
+    color: #334ccf;
+    font-family: "Concert One", cursive;
+}
+
+.opcao span {
+    font-size: 30px;
+    color: #334ccf;
+}

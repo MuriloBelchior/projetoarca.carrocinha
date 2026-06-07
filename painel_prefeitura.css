@@ -1,0 +1,165 @@
+body {
+    background-color: #f3f5f9;
+}
+
+.painel-prefeitura {
+    max-width: 1400px;
+    margin: 40px auto;
+}
+
+.topo-painel h1 {
+    color: #334ccf;
+    font-family: "Concert One", cursive;
+    font-size: 42px;
+}
+
+.topo-painel p {
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    color: #555;
+}
+
+.cards-resumo {
+    margin-top: 30px;
+
+    display: flex;
+    gap: 20px;
+}
+
+.card-resumo {
+    flex: 1;
+
+    background-color: white;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card-resumo h2 {
+    color: #334ccf;
+    font-family: "Concert One", cursive;
+    font-size: 48px;
+}
+
+.card-resumo p {
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+.area-painel {
+    display: flex;
+    gap: 20px;
+
+    margin-top: 30px;
+}
+
+.bloco-principal {
+    flex: 1;
+
+    background-color: white;
+
+    border-radius: 15px;
+
+    padding: 25px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.bloco-principal h2 {
+    color: #334ccf;
+    font-family: "Concert One", cursive;
+
+    margin-bottom: 20px;
+}
+
+.linha-agendamento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 0;
+
+    border-bottom: 1px solid #eee;
+}
+
+.linha-agendamento h3 {
+    color: #334ccf;
+    font-family: "Concert One", cursive;
+}
+
+.linha-agendamento p {
+    font-family: "Poppins", sans-serif;
+    color: #666;
+}
+
+.status {
+    background-color: #dff5e3;
+    color: #1b8f3c;
+
+    padding: 8px 12px;
+
+    border-radius: 10px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.pendente {
+    background-color: #fff2d9;
+    color: #b77900;
+}
+
+.concluido {
+    background-color: #d9ecff;
+    color: #0066cc;
+}
+
+.acoes-rapidas {
+    width: 280px;
+
+    background-color: white;
+
+    border-radius: 15px;
+
+    padding: 25px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.acoes-rapidas h2 {
+    color: #334ccf;
+    font-family: "Concert One", cursive;
+
+    margin-bottom: 20px;
+}
+
+.acoes-rapidas a {
+    display: block;
+
+    margin-bottom: 10px;
+
+    text-decoration: none;
+
+    background-color: #8b2bbf;
+    color: white;
+
+    padding: 12px;
+
+    border-radius: 10px;
+
+    text-align: center;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+
+    transition: 0.2s;
+}
+
+.acoes-rapidas a:hover {
+    background-color: #7723a6;
+}

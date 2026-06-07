@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Animal - ONG</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="cadastrar_animal.ong.css">
+</head>
+<body>
+
+<header>
+    <div class="cabecalho">
+        <div class="logo">
+            <img src="imagens/logoprefeitura.png" alt="">
+            <img src="imagens/logoprojetoarca.png" alt="">
+        </div>
+
+        <div class="menu">
+            <nav>
+                <a href="painel_ong.html" class="login">Voltar ao painel</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<main class="pagina-cadastro-animal">
+
+    <section class="topo-cadastro">
+        <h1>Cadastrar Animal</h1>
+        <p>Adicione um novo animal disponível para adoção.</p>
+    </section>
+
+    <form class="form-animal">
+
+        <div class="grupo">
+            <label>Nome do animal</label>
+            <input type="text" placeholder="Ex: Paçoca">
+        </div>
+
+        <div class="linha-form">
+            <div class="grupo">
+                <label>Espécie</label>
+                <select>
+                    <option>Cachorro</option>
+                    <option>Gato</option>
+                </select>
+            </div>
+
+            <div class="grupo">
+                <label>Idade</label>
+                <input type="text" placeholder="Ex: 1 ano">
+            </div>
+        </div>
+
+        <div class="linha-form">
+            <div class="grupo">
+                <label>Sexo</label>
+                <select>
+                    <option>Macho</option>
+                    <option>Fêmea</option>
+                </select>
+            </div>
+
+            <div class="grupo">
+                <label>Porte</label>
+                <select>
+                    <option>Pequeno</option>
+                    <option>Médio</option>
+                    <option>Grande</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="grupo">
+            <label>Descrição</label>
+            <textarea placeholder="Descreva o comportamento e cuidados do animal"></textarea>
+        </div>
+
+        <div class="grupo">
+            <label>Foto do animal</label>
+            <input type="file">
+        </div>
+
+        <a href="animal_cadastrado.html" class="botao-cadastrar">
+    Cadastrar animal
+</a>
+
+    </form>
+
+</main>
+
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação Prévia - Projeto Arca</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="avaliacao_previa.css">
+</head>
+<body>
+
+<header>
+    <div class="cabecalho">
+        <div class="logo">
+            <img src="imagens/logoprefeitura.png" alt="Logo Prefeitura da Serra">
+            <img src="imagens/logoprojetoarca.png" alt="Logo Projeto Arca">
+        </div>
+
+        <div class="menu">
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="agendamentos.html">Agendamentos</a>
+                <a href="ajuda.html">Ajuda</a>
+                <a href="sobre.html">Sobre</a>
+
+                <input type="text" id="Buscar" placeholder="Buscar...">
+
+                <a href="login.html" class="login">
+                    <img src="imagens/iconecerto.jpg" alt="Ícone login">
+                    Login
+                </a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<main class="pagina-avaliacao">
+
+    <a href="castracao.html" class="voltar">← Voltar</a>
+
+    <section class="topo-avaliacao">
+        <h1>Agendamento de Castração</h1>
+        <p>Seu pet precisa passar por uma avaliação veterinária antes da cirurgia.</p>
+        <span>Etapa 2 de 3</span>
+    </section>
+
+    <div class="aviso">
+        <div class="icone-aviso">⚠️</div>
+
+        <div>
+            <h3>Avaliação obrigatória</h3>
+
+            <p>
+                Antes da castração, é necessário realizar uma avaliação veterinária
+                para garantir a segurança do procedimento.
+            </p>
+        </div>
+    </div>
+
+    <section class="conteudo-avaliacao">
+
+        <div class="card-pet-dados">
+
+            <h2>Dados do Pet</h2>
+
+            <img id="petImagem" src="" alt="Pet selecionado">
+
+            <h3 id="petNome"></h3>
+
+            <p id="petDados"></p>
+
+            <p>SRD - Sem raça definida</p>
+
+            <span class="status">● Não castrado</span>
+
+            <a href="castracao.html" class="trocar">
+                Trocar pet
+            </a>
+
+        </div>
+
+        <div class="proximos-passos">
+
+            <h2>Próximos Passos</h2>
+
+            <p>
+                Escolha uma das opções abaixo para continuar.
+            </p>
+
+            <a href="agendar_avaliacao.html" class="opcao">
+
+                <div>
+                    <h3>Agendar avaliação</h3>
+
+                    <p>
+                        Escolha a unidade, data e horário disponíveis.
+                    </p>
+                </div>
+
+                <span>›</span>
+
+            </a>
+
+            <div class="opcao">
+
+                <div>
+                    <h3>Unidades disponíveis</h3>
+
+                    <p>
+                        Consulte os locais de atendimento.
+                    </p>
+                </div>
+
+                <span>›</span>
+
+            </div>
+
+            <div class="opcao">
+
+                <div>
+                    <h3>Enviar exames</h3>
+
+                    <p>
+                        Faça o envio dos documentos necessários.
+                    </p>
+                </div>
+
+                <span>›</span>
+
+            </div>
+
+            <div class="opcao">
+
+                <div>
+                    <h3>Ver orientações</h3>
+
+                    <p>
+                        Confira todas as recomendações para o procedimento.
+                    </p>
+                </div>
+
+                <span>›</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<script src="avaliacao_previa.js"></script>
+
+</body>
+</html>

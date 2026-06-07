@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f4f6fb
+}
+
+header {
+    background-color: #334ccf;
+    padding: 12px 30px;
+}
+
+.cabecalho {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.menu {
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #334ccf;
+    font-family: "Concert One", cursive;
+}
+
+#Buscar {
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    outline: none;
+}
+
+.login {
+    background-color: white;
+    padding: 8px 18px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    color: #334ccf;
+    font-family: "Concert One", cursive;
+
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.login img {
+    width: 20px;
+    height: 20px;
+} /*tudo*/
+
+.banner {
+    display: flex;
+    margin-top: 30px;
+
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: #334ccf;
+    border-radius: 20px;
+    
+    
+}
+@media (max-width: 768px) {
+
+    .cabecalho {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .menu nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .menu input {
+        width: 100%;
+    }
+
+    .banner {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .banner-imagem,
+    .banner-texto {
+        width: 100%;
+    }
+
+    .servicos,
+    .cards-animais,
+    .lista-pets,
+    .conteudo-avaliacao,
+    .conteudo-agendamento,
+    .resumo-agendamento,
+    .cards-resumo,
+    .area-painel,
+    .resumo-denuncias {
+        flex-direction: column;
+    }
+
+    .card-servico,
+    .card-animal,
+    .card-pet,
+    .card-cadastrar,
+    .card-resumo,
+    .acoes-rapidas,
+    .lado-esquerdo {
+        width: 100%;
+    }
+
+    .pagina-castracao,
+    .pagina-avaliacao,
+    .pagina-agendamento,
+    .pagina-confirmacao,
+    .painel-prefeitura,
+    .painel-ong,
+    .pagina-denuncias,
+    .pagina-cadastro-animal {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .lado-direito,
+    .bloco-principal {
+        width: 100%;
+    }
+
+    .linha-form {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .acoes {
+        width: 100%;
+    }
+}

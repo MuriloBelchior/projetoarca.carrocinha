@@ -1,0 +1,141 @@
+.pagina-castracao {
+    max-width: 1200px;
+    margin: 40px auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.voltar {
+    text-decoration: none;
+    color: #334ccf;
+    font-family: "Concert One", cursive;
+    font-size: 20px;
+
+    align-self: flex-start;
+}
+
+.topo-castracao {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 900px;
+}
+
+.topo-castracao h1 {
+    font-family: "Concert One", cursive;
+    color: #334ccf;
+    font-size: 40px;
+}
+
+.topo-castracao p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.topo-castracao span {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #334ccf;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-family: "Concert One", cursive;
+}
+
+.lista-pets {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card-pet {
+    width: 280px;
+    min-height: 330px;
+
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.card-pet img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.info-pet {
+    padding: 15px;
+}
+
+.info-pet h3 {
+    color: #334ccf;
+    font-family: "Concert One", cursive;
+}
+
+.info-pet p {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.botao-selecionar {
+    display: inline-block;
+    background-color: #8b2bbf;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-family: "Concert One", cursive;
+}
+
+.card-cadastrar {
+    width: 280px;
+    min-height: 330px;
+
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 20px;
+}
+
+.mais {
+    width: 80px;
+    height: 80px;
+
+    background-color: #334ccf;
+    color: white;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.card-cadastrar h3 {
+    margin-top: 20px;
+    color: #334ccf;
+    font-family: "Concert One", cursive;
+}
+
+.card-cadastrar p {
+    margin-top: 10px;
+}

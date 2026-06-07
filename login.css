@@ -1,0 +1,124 @@
+body {
+    background-color: #f3f5f9;
+}
+
+.pagina-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 80vh;
+}
+
+.card-login {
+    width: 450px;
+
+    background-color: white;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card-login h1 {
+    color: #334ccf;
+    font-family: "Concert One", cursive;
+    font-size: 40px;
+
+    text-align: center;
+}
+
+.card-login p {
+    text-align: center;
+
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    font-family: "Poppins", sans-serif;
+}
+
+.card-login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-login label {
+    margin-bottom: 5px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.card-login input {
+    padding: 12px;
+
+    margin-bottom: 20px;
+
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+    font-family: "Poppins", sans-serif;
+}
+
+.card-login input:focus {
+    outline: none;
+    border-color: #334ccf;
+}
+
+.card-login button {
+    border: none;
+
+    background-color: #8b2bbf;
+    color: white;
+
+    padding: 14px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+
+    transition: 0.2s;
+}
+
+.card-login button:hover {
+    background-color: #7723a6;
+}
+
+.links-login {
+    text-align: center;
+    margin-top: 15px;
+
+    font-family: "Poppins", sans-serif;
+}
+
+.links-login a {
+    color: #334ccf;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.links-login a:hover {
+    text-decoration: underline;
+}
+
+.links-login span {
+    color: #555;
+}
+
+#mensagemErro {
+    display: block;
+
+    margin-top: 15px;
+
+    text-align: center;
+
+    color: red;
+
+    font-family: "Poppins", sans-serif;
+}

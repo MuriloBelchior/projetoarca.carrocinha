@@ -1,0 +1,311 @@
+.pagina-agendamento {
+    max-width: 1200px;
+    margin: 40px auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.voltar {
+    text-decoration: none;
+    color: #334ccf;
+    font-family: "Concert One", cursive;
+    font-size: 20px;
+
+    align-self: flex-start;
+}
+
+.topo-agendamento {
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 20px;
+}
+
+.topo-agendamento h1 {
+    font-family: "Concert One", cursive;
+    color: #334ccf;
+    font-size: 40px;
+}
+
+.topo-agendamento span {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #334ccf;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-family: "Concert One", cursive;
+}
+
+.conteudo-agendamento {
+    width: 100%;
+    max-width: 1000px;
+
+    margin-top: 30px;
+
+    display: flex;
+    gap: 30px;
+}
+
+.lado-esquerdo {
+    width: 320px;
+}
+
+.card-pet {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card-pet img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.dados-pet {
+    padding: 15px;
+}
+
+.dados-pet h2 {
+    font-family: "Concert One", cursive;
+    color: #334ccf;
+}
+
+.dados-pet p {
+    margin-top: 5px;
+}
+
+.status {
+    display: inline-block;
+
+    margin-top: 15px;
+
+    background-color: #e6f7ea;
+    color: #1b8f3c;
+
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+.dados-tutor {
+    margin-top: 20px;
+
+    background-color: white;
+    border-radius: 15px;
+
+    padding: 20px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.dados-tutor h3 {
+    font-family: "Concert One", cursive;
+    color: #334ccf;
+    margin-bottom: 15px;
+}
+
+.dados-tutor p {
+    margin-top: 10px;
+}
+
+.lado-direito {
+    flex: 1;
+
+    background-color: white;
+    border-radius: 15px;
+
+    padding: 25px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.lado-direito h3 {
+    color: #334ccf;
+    font-family: "Concert One", cursive;
+    margin-bottom: 15px;
+}
+
+
+
+.calendario {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+.calendario-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.calendario-topo h4 {
+    font-family: "Poppins", sans-serif;
+}
+
+.calendario-topo button {
+    border: none;
+    background: none;
+    color: #334ccf;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.semana,
+.dias-calendario {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px;
+    text-align: center;
+}
+
+.semana span {
+    font-size: 12px;
+    font-weight: 600;
+    color: #777;
+}
+
+.dias-calendario button {
+    border: none;
+    background: transparent;
+    padding: 8px;
+    border-radius:10%;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+
+.dias-calendario button:hover {
+    background-color: #eef1f7;
+}
+
+.dias-calendario .selecionado {
+    background-color: #334ccf;
+    color: white;
+}
+
+.dias-calendario .apagado {
+    color: #bbb;
+}
+
+
+
+.horarios {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.horarios button {
+    border: none;
+    padding: 12px 18px;
+    border-radius: 10px;
+    background-color: #eef1f7;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+
+.selecionado {
+    background-color: #334ccf !important;
+    color: white;
+}
+
+/* UNIDADES */
+
+.unidades {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.unidades button {
+    border: none;
+    background-color: #eef1f7;
+
+    padding: 15px;
+
+    border-radius: 10px;
+
+
+    cursor: pointer;
+
+    font-family: "Poppins", sans-serif;
+
+    transition: 0.2s;
+}
+
+.unidades button:hover {
+    background-color: #dfe5f0;
+}
+
+.selecionado-unidade {
+    background-color: #334ccf !important;
+    color: white;
+}
+
+.botao-agendar {
+    display: inline-block;
+
+    text-decoration: none;
+
+    background-color: #8b2bbf;
+    color: white;
+
+    padding: 12px 25px;
+
+    border-radius: 10px;
+
+    font-family: "Concert One", cursive;
+}
+
+#buscaUnidade {
+    width: 100%;
+    padding: 12px;
+
+    border: 1px solid #ddd;
+    border-radius: 10px;
+
+    font-family: "Poppins", sans-serif;
+
+    margin-bottom: 15px;
+}
+
+.horarios {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
+    margin-bottom: 25px;
+}
+
+.horarios button {
+    border: none;
+
+    padding: 12px 20px;
+
+    border-radius: 10px;
+
+    background-color: #eef1f7;
+
+    cursor: pointer;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+
+    transition: 0.2s;
+}
+
+.horarios button:hover {
+    background-color: #dfe5f0;
+}
+
+.horarios .selecionado {
+    background-color: #334ccf;
+    color: white;
+}

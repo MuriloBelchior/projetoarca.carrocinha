@@ -1,0 +1,198 @@
+.pagina-confirmacao {
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.voltar {
+    text-decoration: none;
+    color: #334ccf;
+    font-family: "Concert One", cursive;
+    font-size: 20px;
+}
+
+.topo-confirmacao {
+    margin-top: 20px;
+}
+
+.topo-confirmacao h1 {
+    font-family: "Concert One", cursive;
+    color: #334ccf;
+    font-size: 40px;
+}
+
+.topo-confirmacao span {
+    display: inline-block;
+
+    margin-top: 15px;
+
+    background-color: #d9b3ff;
+    color: #8b2bbf;
+
+    padding: 6px 15px;
+    border-radius: 10px;
+
+    font-family: "Concert One", cursive;
+}
+
+.linha {
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0 30px;
+}
+
+.resumo-agendamento {
+    display: flex;
+    gap: 20px;
+}
+
+.card-pet {
+    flex: 1;
+
+    background-color: white;
+
+    border-radius: 15px;
+
+    padding: 15px;
+
+    display: flex;
+    gap: 15px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card-pet img {
+    width: 130px;
+    height: 130px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+
+.dados-pet h2 {
+    color: #334ccf;
+    font-family: "Concert One", cursive;
+
+    margin-bottom: 10px;
+}
+
+.dados-pet p {
+    margin-top: 5px;
+    font-family: "Poppins", sans-serif;
+}
+
+.status-agendado {
+    display: inline-block;
+
+    margin-top: 10px;
+
+    background-color: #dff5e3;
+    color: #1b8f3c;
+
+    padding: 8px 12px;
+
+    border-radius: 10px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.acoes {
+    width: 300px;
+
+    background-color: white;
+
+    border-radius: 15px;
+
+    padding: 15px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.acoes button {
+    border: none;
+
+    background-color: #8b2bbf;
+    color: white;
+
+    padding: 12px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+
+    transition: 0.2s;
+}
+
+.acoes button:hover {
+    background-color: #7723a6;
+}
+
+.acoes a {
+    text-decoration: none;
+}
+
+.historico {
+    margin-top: 30px;
+
+    background-color: white;
+
+    border-radius: 15px;
+
+    padding: 20px;
+
+    min-height: 180px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.historico h3 {
+    color: #334ccf;
+    font-family: "Concert One", cursive;
+}
+
+.historico-vazio {
+    margin-top: 60px;
+
+    text-align: center;
+
+    color: #999;
+
+    font-family: "Poppins", sans-serif;
+}
+
+.botao-voltar {
+    display: block;
+
+    width: 300px;
+
+    margin: 30px auto 0;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    background-color: #8b2bbf;
+    color: white;
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+
+    transition: 0.2s;
+}
+
+.botao-voltar:hover {
+    background-color: #7723a6;
+}

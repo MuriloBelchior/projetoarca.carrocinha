@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denúncias - Prefeitura</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="denuncias_prefeitura.css">
+</head>
+<body>
+
+<header>
+    <div class="cabecalho">
+        <div class="logo">
+            <img src="imagens/logoprefeitura.png" alt="">
+            <img src="imagens/logoprojetoarca.png" alt="">
+        </div>
+
+        <div class="menu">
+            <nav>
+                <a href="painel_prefeitura.html" class="login">
+                    Voltar ao painel
+                </a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<main class="pagina-denuncias">
+
+    <section class="topo-denuncias">
+        <h1>Denúncias Recebidas</h1>
+        <p>Gerencie e acompanhe denúncias registradas pela população.</p>
+    </section>
+
+    <section class="resumo-denuncias">
+
+        <div class="card-resumo">
+            <h2>18</h2>
+            <p>Denúncias recebidas</p>
+        </div>
+
+        <div class="card-resumo">
+            <h2>5</h2>
+            <p>Pendentes</p>
+        </div>
+
+        <div class="card-resumo">
+            <h2>7</h2>
+            <p>Em análise</p>
+        </div>
+
+        <div class="card-resumo">
+            <h2>6</h2>
+            <p>Resolvidas</p>
+        </div>
+
+    </section>
+
+    <section class="filtros">
+        <button>Todos</button>
+        <button>Pendentes</button>
+        <button>Em análise</button>
+        <button>Resolvidas</button>
+    </section>
+
+    <section class="lista-denuncias">
+
+        <div class="card-denuncia">
+
+            <div class="info-denuncia">
+                <h2>⚠️ Maus-tratos</h2>
+                <p>Rua Exemplo, 123 - Barcelona</p>
+                <p>Animal preso em condições inadequadas.</p>
+            </div>
+
+            <div class="acoes-denuncia">
+                <span class="pendente">Pendente</span>
+                <button>Ver detalhes</button>
+            </div>
+
+        </div>
+
+        <div class="card-denuncia">
+
+            <div class="info-denuncia">
+                <h2>🐶 Animal abandonado</h2>
+                <p>Praça Central - Laranjeiras</p>
+                <p>Animal encontrado sem identificação.</p>
+            </div>
+
+            <div class="acoes-denuncia">
+                <span class="analise">Em análise</span>
+                <button>Ver detalhes</button>
+            </div>
+
+        </div>
+
+        <div class="card-denuncia">
+
+            <div class="info-denuncia">
+                <h2>🚑 Animal ferido</h2>
+                <p>Av. Norte Sul - Serra</p>
+                <p>Animal atropelado aguardando resgate.</p>
+            </div>
+
+            <div class="acoes-denuncia">
+                <span class="resolvido">Resolvido</span>
+                <button>Ver detalhes</button>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+</body>
+</html>

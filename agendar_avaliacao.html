@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar Avaliação - Projeto Arca</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="agendar_avaliacao.css">
+</head>
+<body>
+
+<header>
+    <div class="cabecalho">
+        <div class="logo">
+            <img src="imagens/logoprefeitura.png" alt="Logo Prefeitura da Serra">
+            <img src="imagens/logoprojetoarca.png" alt="Logo Projeto Arca">
+        </div>
+
+        <div class="menu">
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="agendamentos.html">Agendamentos</a>
+                <a href="ajuda.html">Ajuda</a>
+                <a href="sobre.html">Sobre</a>
+
+                <input type="text" id="Buscar" placeholder="Buscar...">
+
+                <a href="login.html" class="login">
+                    <img src="imagens/iconecerto.jpg" alt="Ícone login">
+                    Login
+                </a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<main class="pagina-agendamento">
+
+    <a href="avaliacao_previa.html" class="voltar">← Voltar</a>
+
+    <section class="topo-agendamento">
+        <h1>Agendamento de Castração</h1>
+        <span>Etapa 3 de 3</span>
+    </section>
+
+    <section class="conteudo-agendamento">
+
+        <div class="lado-esquerdo">
+
+            <div class="card-pet">
+
+                <img id="petImagem" src="" alt="Pet">
+
+                <div class="dados-pet">
+                    <h2 id="petNome"></h2>
+
+                    <p id="petDados"></p>
+
+                    <p>SRD - Sem raça definida</p>
+
+                    <span class="status">● Não castrado</span>
+                </div>
+
+            </div>
+
+            <div class="dados-tutor">
+
+                <h3>Dados do Tutor</h3>
+
+                <p>👤 Neymar Junior</p>
+                <p>📞 (27) 99999-9999</p>
+                <p>✉️ email@email.com</p>
+
+            </div>
+
+        </div>
+
+        <div class="lado-direito">
+
+            <h3>Escolha uma data</h3>
+
+            <div class="calendario">
+
+                <div class="calendario-topo">
+                    <button>&lt;</button>
+                   <h4 id="mesAtual"></h4>
+                    <button>&gt;</button>
+                </div>
+
+                <div class="semana">
+                    <span>DOM</span>
+                    <span>SEG</span>
+                    <span>TER</span>
+                    <span>QUA</span>
+                    <span>QUI</span>
+                    <span>SEX</span>
+                    <span>SÁB</span>
+                </div>
+
+                <div class="dias-calendario">
+
+                    <button class="apagado">30</button>
+                    <button class="apagado">31</button>
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button>4</button>
+                    <button>5</button>
+
+                    <button>6</button>
+                    <button>7</button>
+                    <button>8</button>
+                    <button>9</button>
+                    <button>10</button>
+                    <button>11</button>
+                    <button>12</button>
+
+                    <button>13</button>
+                    <button>14</button>
+                    <button>15</button>
+                    <button>16</button>
+                    <button>17</button>
+                    <button>18</button>
+                    <button>19</button>
+
+                    <button class="selecionado">20</button>
+                    <button>21</button>
+                    <button>22</button>
+                    <button>23</button>
+                    <button>24</button>
+                    <button>25</button>
+                    <button>26</button>
+
+                    <button>27</button>
+                    <button>28</button>
+                    <button>29</button>
+                    <button>30</button>
+                    <button class="apagado">1</button>
+                    <button class="apagado">2</button>
+                    <button class="apagado">3</button>
+
+                </div>
+
+            </div>
+
+            <div class="horarios">
+    <button>09:30</button>
+    <button class="selecionado">13:00</button>
+    <button>16:30</button>
+</div>
+
+  <h3>Escolha uma unidade</h3>
+
+<input
+    type="text"
+    id="buscaUnidade"
+    placeholder="Digite o bairro ou cidade..."
+>
+
+<div class="unidades">
+
+    <button class="selecionado-unidade">
+        📍 Serra - Barcelona
+    </button>
+
+    <button>
+        📍 Serra - Laranjeiras
+    </button>
+
+    <button>
+        📍 Cariacica - Campo Grande
+    </button>
+
+    <button>
+        📍 Cariacica - Jardim América
+    </button>
+
+</div>
+
+            <a href="confirmacao_avaliacao.html" class="botao-agendar">
+                Agendar avaliação
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
+<script src="agendar_avaliacao.js"></script>
+
+</body>
+</html>

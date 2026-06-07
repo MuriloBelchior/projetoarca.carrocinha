@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Castração - Projeto Arca</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="castracao.css">
+</head>
+<body>
+
+<header>
+    <div class="cabecalho">
+        <div class="logo">
+            <img src="imagens/logoprefeitura.png" alt="Logo Prefeitura da Serra">
+            <img src="imagens/logoprojetoarca.png" alt="Logo Projeto Arca">
+        </div>
+
+        <div class="menu">
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="agendamentos.html">Agendamentos</a>
+                <a href="ajuda.html">Ajuda</a>
+                <a href="sobre.html">Sobre</a>
+
+                <input type="text" id="Buscar" placeholder="Buscar...">
+
+                <a href="login.html" class="login">
+                    <img src="imagens/iconecerto.jpg" alt="Ícone login">
+                    Login
+                </a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<main class="pagina-castracao">
+
+    <a href="index.html" class="voltar">← Voltar</a>
+
+    <section class="topo-castracao">
+        <h1>Castração</h1>
+        <p>Escolha o animal que passará pela avaliação prévia para castração.</p>
+        <span>Etapa 1 de 3</span>
+    </section>
+
+    <section class="lista-pets">
+
+        <a href="avaliacao_previa.html"
+           class="card-pet"
+           onclick="selecionarPet('Mel', 'Cachorro', '1 ano', 'imagens/pitbullmel.jpg')">
+
+            <img src="imagens/pitbullmel.jpg" alt="Mel">
+
+            <div class="info-pet">
+                <h3>Mel</h3>
+                <p>Cachorro | 1 ano</p>
+                <span class="botao-selecionar">Selecionar</span>
+            </div>
+        </a>
+
+        <a href="avaliacao_previa.html"
+           class="card-pet"
+           onclick="selecionarPet('Mingau', 'Gato', '2 anos', 'imagens/gatomingau.jpg')">
+
+            <img src="imagens/gatomingau.jpg" alt="Mingau">
+
+            <div class="info-pet">
+                <h3>Mingau</h3>
+                <p>Gato | 2 anos</p>
+                <span class="botao-selecionar">Selecionar</span>
+            </div>
+        </a>
+
+        <div class="card-cadastrar">
+            <div class="mais">+</div>
+
+            <h3>Cadastrar novo animal</h3>
+
+            <p>Adicione um pet para iniciar o processo.</p>
+        </div>
+
+    </section>
+
+</main>
+
+<script src="castracao.js"></script>
+</body>
+</html>

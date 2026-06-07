@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel ONG - Projeto Arca</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="painel_ong.css">
+</head>
+<body>
+
+<header>
+    <div class="cabecalho">
+        <div class="logo">
+            <img src="imagens/logoprefeitura.png" alt="Logo Prefeitura da Serra">
+            <img src="imagens/logoprojetoarca.png" alt="Logo Projeto Arca">
+        </div>
+
+        <div class="menu">
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="#">Animais</a>
+                <a href="#">Adoções</a>
+                <a href="#">Eventos</a>
+
+                <a href="login.html" class="login">Sair</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<main class="painel-ong">
+
+    <section class="topo-painel">
+        <h1>Painel da ONG</h1>
+        <p>Gerencie animais cadastrados, pedidos de adoção e eventos.</p>
+    </section>
+
+    <section class="cards-resumo">
+        <div class="card-resumo">
+            <h2>18</h2>
+            <p>🐶 Animais cadastrados</p>
+        </div>
+
+        <div class="card-resumo">
+            <h2>9</h2>
+            <p>📩 Pedidos de adoção</p>
+        </div>
+
+        <div class="card-resumo">
+            <h2>6</h2>
+            <p>✅ Adoções concluídas</p>
+        </div>
+
+        <div class="card-resumo">
+            <h2>2</h2>
+            <p>📅 Eventos ativos</p>
+        </div>
+    </section>
+
+    <section class="area-painel">
+
+        <div class="bloco-principal">
+            <h2>Animais recentes</h2>
+
+            <div class="linha-animal">
+                <div>
+                    <h3>Paçoca</h3>
+                    <p>Cachorro | 1 ano | Disponível para adoção</p>
+                </div>
+                <span class="status">Disponível</span>
+            </div>
+
+            <div class="linha-animal">
+                <div>
+                    <h3>Neymar</h3>
+                    <p>Gato | 2 meses | Em análise de adoção</p>
+                </div>
+                <span class="status analise">Em análise</span>
+            </div>
+
+            <div class="linha-animal">
+                <div>
+                    <h3>Cosmo</h3>
+                    <p>Gato | 7 meses | Adoção concluída</p>
+                </div>
+                <span class="status concluido">Adotado</span>
+            </div>
+        </div>
+
+        <div class="acoes-rapidas">
+            <h2>Ações rápidas</h2>
+            <a href="cadastrar_animal.ong.html">Cadastrar animal</a>
+            <a href="#">Ver pedidos</a>
+            <a href="#">Criar evento</a>
+            <a href="#">Atualizar animal</a>
+        </div>
+
+    </section>
+
+</main>
+
+</body>
+</html>

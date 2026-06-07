@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conclusão - Projeto Arca</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="confirmacao_avaliacao.css">
+</head>
+<body>
+
+<header>
+    <div class="cabecalho">
+        <div class="logo">
+            <img src="imagens/logoprefeitura.png" alt="Logo Prefeitura da Serra">
+            <img src="imagens/logoprojetoarca.png" alt="Logo Projeto Arca">
+        </div>
+
+        <div class="menu">
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="agendamentos.html">Agendamentos</a>
+                <a href="ajuda.html">Ajuda</a>
+                <a href="sobre.html">Sobre</a>
+
+                <input type="text" id="Buscar" placeholder="Buscar...">
+
+                <a href="login.html" class="login">
+                    <img src="imagens/iconecerto.jpg" alt="Ícone login">
+                    Login
+                </a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<main class="pagina-confirmacao">
+
+    <a href="agendar_avaliacao.html" class="voltar">← Voltar</a>
+
+    <section class="topo-confirmacao">
+        <h1>Agendamento de Castração</h1>
+        <span>Conclusão</span>
+    </section>
+
+    <div class="linha"></div>
+
+    <section class="resumo-agendamento">
+
+        <div class="card-pet">
+
+            <img id="petImagem" src="" alt="Pet">
+
+            <div class="dados-pet">
+                <h2 id="petNome"></h2>
+
+                <p><strong>Data:</strong> <span id="dataAgendada"></span></p>
+
+                <p><strong>Horário:</strong> <span id="horarioAgendado"></span></p>
+
+                <p><strong>Unidade:</strong> <span id="unidadeAgendada"></span></p>
+
+                <span class="status-agendado">
+                    ✔ Avaliação agendada
+                </span>
+            </div>
+
+        </div>
+
+        <div class="acoes">
+
+            <button>Ver detalhes</button>
+
+            <button>Baixar comprovante</button>
+
+            <button>Cancelar agendamento</button>
+
+            <a href="agendar_avaliacao.html">
+                <button>Reagendar</button>
+            </a>
+
+        </div>
+
+    </section>
+
+    <section class="historico">
+
+        <h3>📋 Histórico de agendamentos</h3>
+
+        <div class="historico-vazio">
+            Nenhum agendamento anterior
+        </div>
+
+    </section>
+
+    <a href="index.html" class="botao-voltar">
+        Voltar ao início
+    </a>
+
+</main>
+
+<script src="confirmacao_avaliacao.js"></script>
+
+</body>
+</html>
